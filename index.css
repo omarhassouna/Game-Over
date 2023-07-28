@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+:root{
+  --main-font:'Nunito Sans', sans-serif;
+  --font-color:'white'
+}
+body{
+  font-family:var(--main-font);
+  margin: 0;
+  color: #aaa;
+  background-color: #272b30;
+ }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  color:var(--font-color);
+  text-decoration: none;
+ 
+}
+.btn-outline-ftg[_ngcontent-ehi-c23] {
+  color: #4799eb;
+  border-color: #4799eb;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.nav-link.login{
+  color: grey;
+}
+
+.logo-img{
+  width: 10%;
+}
+.my-input{
+  background-color: #1c1e22;
+  border: 0 solid rgba(0,0,0,.6);
+  color:white;
+}
+.btn-secondary{
+  background-color: #3a3f44;
+    border-color: #22241d;
+   
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.game{
+  box-sizing: border-box;
+
+  inset: 0;
+  z-index: 1;
+  content: "";
+}
+.offline{
+  z-index: 10000;
+  background-color:danger;
+  position: fixed;
+  bottom: 50px;
+  left :50px;
+  box-shadow: 10px 10px 10px #ccc;
+  padding: 20px;
+}
+
